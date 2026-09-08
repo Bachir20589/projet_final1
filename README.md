@@ -1,13 +1,20 @@
-# projet_final1
-Avec ce projet j'ai pu a nettoyer et visualiser avec les graphes,sans oublier le remplancement des données manquantes.
+# Analyse des annulations de réservations hôtelières
+
+# Contexte
+Analyse d'un jeu de données de réservations hôtelières pour identifier 
+les facteurs associés aux annulations.
+
+# Méthode
+- Nettoyage des données avec Pandas (dropna, fillna pour les valeurs manquantes)
+- Visualisation avec Matplotlib et Seaborn pour explorer les tendances
+
+# Résultats
+Sur ce jeu de données (4 étudiants après nettoyage) :
+- La filière Informatique est majoritaire
+- Une corrélation négative forte (-0.82) apparaît entre l'âge et la note  qui pourrait  nous permettre de supposer que plus l'étudiant est âgé, plus sa note tend à diminuer,
+mais l'échantillon est trop petit pour en tirer une conclusion générale
+- Note moyenne : 14.0
+- Étudiants avec note >= 14 : Ali, Fatou
+
 # Outils
-.Pandas:
-Avec Pandas, j’ai pu nettoyer les données. J’ai notamment utilisé :
-
-dropna() pour supprimer les données manquantes ;
-fillna() pour remplacer les données manquantes.
-
-.Matplotlib et Seaborn: 
-Matplotlib et Seaborn m’ont permis de visualiser les données à l’aide de différents graphiques.
-
-J’ai utilisé Seaborn pour obtenir des graphiques avec une apparence plus moderne et plus agréable à lire
+Python, Pandas, Matplotlib, Seaborn
