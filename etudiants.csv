@@ -1,0 +1,8 @@
+nom,age,filiere,note,ville 
+Ali,20,Informatique,15,Dakar 
+Fatou,21,Data,14,Thiès 
+Moussa,NaN,Informatique,12,Dakar 
+Awa,20,Data,NaN,Thiès 
+Ali,20,Informatique,15,Dakar 
+Ibrahima,22,NaN,10,Dakar 
+
